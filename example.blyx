@@ -1,0 +1,13 @@
+use peakslots;
+
+fn main() {
+    let starts = [0, 2, 4];
+    let ends = [4, 5, 7];
+    let result = peakslots_overlap(starts, ends);
+    if len(result) == 0 { println!("invalid"); return; }
+    let mut i = 0;
+    while i < len(result) {
+        println!(at(result, i));
+        i += 1;
+    }
+}
